@@ -13,10 +13,20 @@
         android:theme="@style/Theme.RoomDatabaseCURD"
         tools:targetApi="31">
         <activity
+            android:name=".UpdateData"
+            android:exported="false" />
+        <activity
+            android:name=".myCustom"
+            android:exported="false" />
+        <activity
+            android:name=".ViewData"
+            android:exported="false" />
+        <activity
             android:name=".DetailsForm"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
